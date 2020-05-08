@@ -1,0 +1,46 @@
+.facts
+  display: flex
+  justify-content: center
+  padding-top: 7rem
+  &-col
+    padding: 0 15px
+    @include media-breakpoint-up(md)
+      flex: 0 0 80%
+    @include media-breakpoint-up(lg)
+      flex: 0 0 70%
+    @include media-breakpoint-up(xl)
+      flex: 0 0 60%
+.counters
+  display: flex
+  justify-content: center
+  max-width: 460px
+  margin: 3rem auto 1rem
+.counter
+  @include ir(5/4, 33%, "&::before")
+  &::before
+    z-index: -1
+    content: ''
+    border-radius: 60px
+    transform: rotate(-45deg)
+  &-content
+    @extend %bg-cover
+    @extend %flex-center-column
+  &-count
+    font-size: 1.5rem
+    font-weight: 700
+    white-space: nowrap
+    color: #fff
+  &-text
+    font-size: 14px
+    color: #fff
+  &:nth-child(1)
+    &::before
+      background: linear-gradient(#33c8c1 0%, #119bd2 100%)
+  &:nth-child(2)
+    &::before
+      background: linear-gradient(#fe8464 0%, #fe6e9a 100%)
+  &:nth-child(3)
+    &::before
+      background: linear-gradient(#361cc1 0%, #2e82ef 100%)
+
+

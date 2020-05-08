@@ -1,0 +1,44 @@
+.blog
+  padding-top: 8rem
+  &-card
+    flex: 0 0 100%
+    margin-top: 2rem
+    padding: 0 15px
+    @include media-breakpoint-up(md)
+      flex: 0 0 $part-4
+  &-posts
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+  &-image
+    border-radius: 10px
+    width: 100%
+    &-link
+      width: 100%
+  &-post
+    padding-top: 25px
+    &-meta
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      color: #6a6972
+      @include media-breakpoint-up(md)
+        justify-content: stretch
+      & span
+        color: inherit
+    &-user
+      color: inherit
+    &-author
+      flex: 1 1 auto
+    &-date
+      text-align: right
+      @include media-breakpoint-up(md)
+        margin-left: 0
+      @include media-breakpoint-up(lg)
+        margin-left: 50px
+    &-description
+      font-size: 23px
+      font-weight: 400
+      line-height: 30px
+      color: #2e2e2e
+      margin-top: 15px

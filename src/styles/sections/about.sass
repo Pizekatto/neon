@@ -1,0 +1,88 @@
+.about
+  position: relative
+  margin-top: 7rem
+  @include media-breakpoint-up(xl)
+    margin-top: 0
+    padding-top: 7rem
+  &-container
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    @include media-breakpoint-up(md)
+      flex-direction: row
+  &-info, &-image
+    padding: 0 15px
+  &-content
+    max-width: 480px
+    display: flex
+    flex-direction: column
+  &-info
+    flex: 0 0 100%
+    @include media-breakpoint-up(md)
+      flex: 0 0 60%
+    @include media-breakpoint-up(lg)
+      flex: 0 0 50%
+  &-image
+    text-align: center
+    order: -1
+    flex: 0 0 70%
+    margin-bottom: 5rem
+    @include media-breakpoint-up(md)
+      flex: 0 0 40%
+      order: 0
+      margin-bottom: 0
+      align-self: flex-start
+    @include media-breakpoint-up(lg)
+      flex: 0 0 50%
+  &-text
+    margin-top: 1rem
+  &-btn
+    align-self: center
+    margin-top: 20px
+    @include media-breakpoint-up(lg)
+      margin-top: 40px
+
+  &::before
+    display: none
+    z-index: -1
+    position: absolute
+    top: 0
+    content: ''
+    height: 130%
+    background-repeat: no-repeat
+    @include media-breakpoint-up(lg)
+      display: block
+      width: 28%
+      background-size: 140%
+    @include media-breakpoint-up(xl)
+      width: 40%
+      background-size: contain
+  & .title
+      text-align: left
+      &::before
+        left: 0
+        margin-left: 0
+  &:nth-child(odd)
+    & .about-btn
+      @include media-breakpoint-up(md)
+        align-self: flex-start
+    &::before
+      right: 0
+      background-image: url(../assets/images/about-shape-1.svg)
+      @include media-breakpoint-up(lg)
+        background-position: top left
+      @include media-breakpoint-up(xl)
+        background-position: top right
+  &:nth-child(even)
+    & .about-btn
+      @include media-breakpoint-up(md)
+        align-self: flex-end
+    & .about-image
+      order: -1
+    &::before
+      left: 0
+      background-image: url(../assets/images/about-shape-2.svg)
+      @include media-breakpoint-up(lg)
+        background-position: top right
+      @include media-breakpoint-up(xl)
+        background-position: top left
