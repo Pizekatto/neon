@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="111.196"
+   height="30.566"
+   viewBox="0 0 111.196 30.566"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="3.408396"
+     inkscape:cx="55.598"
+     inkscape:cy="27.018725"
+     inkscape:window-x="-8"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group_2" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="linear-gradient"
+       x1="0.5"
+       x2="1.275"
+       y2="0.725"
+       gradientUnits="objectBoundingBox">
+      <stop
+         offset="0"
+         stop-color="#fe8464"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#fe6e9a"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Group_2"
+     data-name="Group 2"
+     transform="translate(-372.804 -44.291)">
+    <text
+       id="BASIC"
+       transform="translate(409,68)"
+       font-size="24"
+       font-weight="700"
+       style="font-weight:700;font-size:24px;font-family:Helvetica-Bold, Helvetica;fill:#ffffff;fill-opacity:1;">
+      <tspan
+         x="0"
+         y="0"
+         id="tspan9"
+         style="fill:#ffffff;fill-opacity:1;">NEON</tspan>
+    </text>
+    <path
+       id="Subtraction_1"
+       data-name="Subtraction 1"
+       d="M9.126,19.253h0a8.835,8.835,0,0,1-6.453-2.82A9.835,9.835,0,0,1,0,9.626,9.835,9.835,0,0,1,2.673,2.82,8.835,8.835,0,0,1,9.126,0V19.252Z"
+       transform="translate(382.43 45.489) rotate(30)"
+       fill="url(#linear-gradient)" />
+    <path
+       id="Subtraction_2"
+       data-name="Subtraction 2"
+       d="M13.694,0h0A13.694,13.694,0,0,0,4.011,23.377a13.6,13.6,0,0,0,9.683,4.011V0Z"
+       transform="translate(395.769 74.857) rotate(-150)"
+       fill="#fff" />
+  </g>
+</svg>
