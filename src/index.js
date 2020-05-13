@@ -158,15 +158,10 @@ async function* counter(from, to, step, time) {
   }
 }
 
-function isInteger(number) {
-  const numberInt = Math.floor(number)
-  return !(number - numberInt)
-}
-
 async function startCount(options) {
-  const { element, from, to, step, time } = options
+  const { element, from, to, step, time, precision } = options
   for await (let value of counter(from, to, step, time)) {
-    if (!isInteger(value)) { value = +value.toFixed(1) }
+    if (precision) {value = value.toFixed(precision)}
     element.textContent = value
   }
 }
@@ -182,7 +177,7 @@ function startCounters() {
   })
   startCount({
     element: document.getElementById('counter-rating'),
-    from: 0, to: 4.8, step: 0.1, time: 3000
+    from: 0, to: 4.8, step: 0.1, time: 3000, precision: 1
   })
 }
 
