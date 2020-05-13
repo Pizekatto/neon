@@ -12,4 +12,4 @@ Navbar переходит в состояние `Sticky` используя `Int
 ### Couner
 Счетчик сделан на асинхронном генераторе
 ### Ресурсы
-Для плавной прокрутки `window.scrollIntoView()` Использован [SmothScroll polyfill](https://github.com/alicelieutier/smoothScroll)
+Для плавной прокрутки `scrollIntoView()` Использован [SmothScroll polyfill](https://github.com/alicelieutier/smoothScroll)
